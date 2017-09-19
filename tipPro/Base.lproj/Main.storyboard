@@ -119,6 +119,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAx-Jz-RN9">
                                         <rect key="frame" x="0.0" y="178" width="220" height="30"/>
                                         <state key="normal" title="Calculate"/>
+                                        <connections>
+                                            <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ofo-GN-Jwb"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -142,7 +145,9 @@
                     </view>
                     <connections>
                         <outlet property="billAmountField" destination="BMs-V1-yYr" id="J6f-qz-T01"/>
+                        <outlet property="tipAmountTextField" destination="rZ2-Ub-L0D" id="nTn-Mf-gPN"/>
                         <outlet property="tipSelector" destination="GA6-MU-gHv" id="o7p-KE-exz"/>
+                        <outlet property="totalAmountTextField" destination="ANq-Rf-YU6" id="2vv-mr-l9Z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
