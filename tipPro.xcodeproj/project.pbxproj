@@ -260,7 +260,6 @@
 		B929D40F1F70839500DA9846 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S44SNCV32X;
 				INFOPLIST_FILE = tipPro/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -274,7 +273,6 @@
 		B929D4101F70839500DA9846 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S44SNCV32X;
 				INFOPLIST_FILE = tipPro/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -304,6 +302,7 @@
 				B929D4101F70839500DA9846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
